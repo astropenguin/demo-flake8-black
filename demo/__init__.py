@@ -5,5 +5,5 @@ def func():
     pass
 
 
-def invalid_func(a, b, c):
+def valid_func(a, b, c):
     pass
