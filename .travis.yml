@@ -15,3 +15,12 @@ after_success:
   - sphinx-apidoc -f -o docs/_apidoc demo
   - sphinx-build docs docs/_build
   - sphinx-build docs docs/_build
+deploy:
+  provider: pages
+  local-dir: docs/_build
+  target-branch: gh-pages
+  github-token: $GITHUB_TOKEN
+  skip-cleanup: true
+  keep-history: true
+  on:
+    branch: master
