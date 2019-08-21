@@ -14,7 +14,3 @@ def func(a, b=1, c=2):
 
     """
     pass
-
-
-def valid_func(a, b, c):
-    pass
