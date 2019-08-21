@@ -1,9 +1,16 @@
 __version__ = "0.0.1"
 
 
-def func():
-    pass
+def func(a, b=1, c=2):
+    """Test function.
 
+    Args:
+        a (int): Parameter A.
+        b (int, optional): Parameter B.
+        c (int, optional): Parameter C.
 
-def valid_func(a, b, c):
+    Returns:
+        This function returns nothing.
+
+    """
     pass

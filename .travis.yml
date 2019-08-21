@@ -10,3 +10,9 @@ script:
   - black --check demo
   - flake8 demo
   - pytest
+after_success:
+  - pip install sphinx sphinx-rtd-theme
+  - sphinx-apidoc -f -o docs/_apidoc demo
+  - sphinx-build docs docs/_build
+  - sphinx-build docs docs/_build
+  - echo 'sphinx docs are successfully built!'
