@@ -5,14 +5,13 @@ python:
   - "3.7"
 install:
   - pip install black flake8 pytest
+  - pip install sphinx sphinx-rtd-theme
   - pip install .
 script:
   - black --check demo
   - flake8 demo
   - pytest
 after_success:
-  - pip install sphinx sphinx-rtd-theme
   - sphinx-apidoc -f -o docs/_apidoc demo
   - sphinx-build docs docs/_build
   - sphinx-build docs docs/_build
-  - echo 'sphinx docs are successfully built!'
