@@ -21,7 +21,7 @@ With a simple `demo` Python package, the following essential (but laborious) pro
 - documentation building by [Sphinx]
 - documentation hosting by [GitHub Pages]
 
-## Initialization of a Python environment
+## Local Python environment
 
 This repository has Pipenv files (`Pipfile` and `Pipfile.lock`) which describe a specific Python version and dependent packages.
 After cloning the repository to local, you can initialize a Python environment as follows:
