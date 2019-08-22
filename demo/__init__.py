@@ -1,7 +1,7 @@
 __version__ = "0.0.1"
 
 
-def func(a, b=1, c=2):
+def func(a: int, b: int = 0, c: int = 0) -> int:
     """Test function.
 
     Args:
@@ -10,7 +10,7 @@ def func(a, b=1, c=2):
         c (int, optional): Parameter C.
 
     Returns:
-        This function returns nothing.
+        sum: The sum of A, B, and C.
 
     """
-    pass
+    return a + b + c
