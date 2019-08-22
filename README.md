@@ -62,7 +62,7 @@ $ pip install -e .
 $ pytest
 ========================= test session starts =========================
 platform darwin -- Python 3.7.3, pytest-5.1.1, py-1.8.0, pluggy-0.12.0
-rootdir: /Users/akio/Development/demo-python-package
+rootdir: /path/to/demo-python-package
 plugins: cov-2.7.1
 collected 2 items
 
@@ -78,7 +78,7 @@ $
 $ pytest --cov demo
 ========================= test session starts =========================
 platform darwin -- Python 3.7.3, pytest-5.1.1, py-1.8.0, pluggy-0.12.0
-rootdir: /Users/akio/Development/demo-python-package
+rootdir: /path/to/demo-python-package
 plugins: cov-2.7.1
 collected 2 items
 
