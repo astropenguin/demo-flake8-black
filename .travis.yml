@@ -18,7 +18,7 @@ jobs:
         - pip install pytest-cov codecov
         - pip install .
       script:
-        - pytest --cov=./
+        - pytest --cov demo
       after_success:
         - codecov
     - stage: deploy
