@@ -128,7 +128,7 @@ repos:
     rev: stable
     hooks:
       - id: black
-      language_version: python3.6
+        language_version: python3.7
   - repo: https://gitlab.com/pycqa/flake8
     rev: 3.7.8
     hooks:
