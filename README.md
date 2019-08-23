@@ -92,6 +92,9 @@ $
 
 ## Code coverage by Codecov
 
+[Codecov] calculates the fraction of codes that are tested to the whole codes (often called code coverage), which is a useful indicator that the package is well-tested or not.
+The code coverage is calculated by pytest with `--cov` option:
+
 ```bash
 $ pytest --cov demo
 ========================= test session starts =========================
