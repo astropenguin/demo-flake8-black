@@ -72,6 +72,9 @@ $
 
 ## Code testing by pytest
 
+[pytest] runs all test scripts in the `tests` directory.
+Before using it, you need to install the `demo` package by pip so that the scripts can find the path of the package:
+
 ```bash
 $ pip install -e .
 $ pytest
