@@ -51,6 +51,18 @@ $ # nothing is output if no errors
 
 ## Code formatting by Black
 
+[Black] is a formatter which (forcibly) reformats source codes according to [the Black code style](https://black.readthedocs.io/en/stable/the_black_code_style.html).
+The following command reformats all codes in the `demo` package **in place**:
+
+```bash
+$ black demo
+All done! ✨ 🍰 ✨
+1 file would be left unchanged.
+$
+```
+
+If you want to just check them, run with `--check` option:
+
 ```bash
 $ black --check demo
 All done! ✨ 🍰 ✨
