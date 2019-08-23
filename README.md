@@ -14,12 +14,12 @@
 This repository demonstrates a way to develop a well-formatted and well-tested Python package using CI/CD.
 With a simple `demo` Python package, the following essential (but laborious) processes are automatically run by [Travis CI] in the cloud, which enables developers to keep focusing on the development of the package itself.
 
-- code linting by [Flake8]
-- code formatting by [Black]
-- code testing by [pytest]
-- code coverage by [Codecov]
-- documentation building by [Sphinx]
-- documentation hosting by [GitHub Pages]
+- code linting (by [Flake8])
+- code formatting (by [Black])
+- code testing (by [pytest])
+- code coverage (by [Codecov])
+- documentation building (by [Sphinx])
+- documentation hosting (by [GitHub Pages])
 
 ## Local Python environment
 
