@@ -41,6 +41,9 @@ $ pipenv shell # enter a virtual environment
 
 ## Code linting by Flake8
 
+[Flake8] is a linter which checks that source codes follow the Python style guide.
+The following command checks all codes in the `demo` package:
+
 ```bash
 $ flake8 demo
 $ # nothing is output if no errors
