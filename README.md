@@ -32,7 +32,7 @@ $ cd demo-python-package
 $ pipenv install --dev
 ```
 
-Note that the following examples are assumed to be run in a virtual environment created by Pipenv.
+Note that the following examples are assumed to be run in a virtual environment created by Pipenv:
 
 ```bash
 $ pipenv shell # enter a virtual environment
