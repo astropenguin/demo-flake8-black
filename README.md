@@ -116,6 +116,10 @@ $
 
 ## Documentation building by Sphinx
 
+[Sphinx] is a document builder written in Python.
+In this repository, it generates an HTML document that describes the usage of the package functions, classes, etc based on the docstrings of them.
+In the local environment, you can generate the document by the following commands:
+
 ```bash
 $ sphinx-apidoc -f -o docs/_apidoc demo
 $ sphinx-build docs docs/_build
