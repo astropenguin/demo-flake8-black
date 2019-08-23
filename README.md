@@ -26,7 +26,7 @@ With a simple `demo` Python package, the following essential (but laborious) pro
 This repository has Pipenv files (`Pipfile` and `Pipfile.lock`) which describe a specific Python version and dependent packages.
 After cloning the repository to local, you can initialize a Python environment as follows:
 
-```shell
+```bash
 $ git clone https://github.com/astropenguin/demo-python-package.git
 $ cd demo-python-package
 $ pipenv install --dev
@@ -34,21 +34,21 @@ $ pipenv install --dev
 
 Note that the following examples are assumed to be run in a virtual environment created by Pipenv.
 
-```shell
+```bash
 $ pipenv shell # enter a virtual environment
 (demo-python-package) $
 ```
 
-## Code linting by flake8
+## Code linting by Flake8
 
-```shell
+```bash
 $ flake8 demo
 $ # nothing is output if no errors
 ```
 
-## Code formatting by black
+## Code formatting by Black
 
-```shell
+```bash
 $ black --check demo
 All done! ✨ 🍰 ✨
 1 file would be left unchanged.
@@ -57,7 +57,7 @@ $
 
 ## Code testing by pytest
 
-```shell
+```bash
 $ pip install -e .
 $ pytest
 ========================= test session starts =========================
@@ -74,7 +74,7 @@ $
 
 ## Code coverage by Codecov
 
-```shell
+```bash
 $ pytest --cov demo
 ========================= test session starts =========================
 platform darwin -- Python 3.7.3, pytest-5.1.1, py-1.8.0, pluggy-0.12.0
@@ -95,7 +95,7 @@ $
 
 ## Documentation building by Sphinx
 
-```shell
+```bash
 $ sphinx-apidoc -f -o docs/_apidoc demo
 $ sphinx-build docs docs/_build
 $ sphinx-build docs docs/_build
@@ -107,7 +107,7 @@ $ sphinx-build docs docs/_build
 
 ### VS Code settings
 
-```json
+```jsonc
 {
     // auto formatting by Black
     "editor.formatOnType": true,
@@ -135,7 +135,7 @@ repos:
       - id: flake8
 ```
 
-```shell
+```bash
 $ pre-commit install
 ```
 
