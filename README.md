@@ -128,6 +128,10 @@ $ sphinx-build docs docs/_build
 
 ## Documentation hosting by GitHub Pages
 
+Once the document is created, it is hosted by [GitHub Pages].
+The document is then pushed to the `gh-pages` branch by [Travis CI].
+See `.travis.yml` for more details.
+
 ## Useful tips
 
 ### VS Code settings
