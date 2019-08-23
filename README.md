@@ -153,8 +153,9 @@ $ pre-commit install
 - [Sphinx]
     - [Getting Started — Sphinx 2\.3\.0 documentation](https://www.sphinx-doc.org/en/2.0/usage/quickstart.html)
     - [Support for NumPy and Google style docstrings — Sphinx 2\.3\.0 documentation](https://www.sphinx-doc.org/en/2.0/usage/extensions/napoleon.html)
-- [pytest]
 - [Codecov]
+    - [codecov/example\-python: Python coverage example](https://github.com/codecov/example-python)
+- [pytest]
 - [Pipenv]
 - [pre-commit]
 - [GitHub Pages]
