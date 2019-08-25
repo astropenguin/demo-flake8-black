@@ -181,7 +181,7 @@ $ pre-commit install
 
 - [Travis CI]
     - [Build Stages \- Travis CI](https://docs.travis-ci.com/user/build-stages)
-    - [GitHub Pages Deployment \- Travis CI](https://docs.travis-ci.com/user/deployment/pages/)
+    - [Job Lifecycle \- Travis CI](https://docs.travis-ci.com/user/job-lifecycle)
 - [Flake8]
     - [Using Version Control Hooks — flake8 3\.7\.8 documentation](http://flake8.pycqa.org/en/latest/user/using-hooks.html)
     - [black/\.flake8 at master · psf/black](https://github.com/psf/black/blob/master/.flake8)
@@ -193,10 +193,13 @@ $ pre-commit install
     - [Support for NumPy and Google style docstrings — Sphinx 2\.3\.0 documentation](https://www.sphinx-doc.org/en/2.0/usage/extensions/napoleon.html)
 - [Codecov]
     - [codecov/example\-python: Python coverage example](https://github.com/codecov/example-python)
-- [pytest]
-- [Pipenv]
-- [pre-commit]
 - [GitHub Pages]
+    - [GitHub Pages Deployment \- Travis CI](https://docs.travis-ci.com/user/deployment/pages/)
+- [pytest]
+    - [Installing and Using plugins — pytest documentation](https://docs.pytest.org/en/latest/plugins.html)
+- [pre-commit]
+    - [pre\-commit](https://pre-commit.com/hooks.html)
+- [Pipenv]
 
 [Travis CI]: https://travis-ci.org
 [Flake8]: http://flake8.pycqa.org/en/latest
