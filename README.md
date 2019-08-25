@@ -136,6 +136,10 @@ See `.travis.yml` for more details.
 
 ### VS Code settings
 
+If you use VS Code, the following settings (to be written in `.vscode/settings.json`) enables the editor integration of Black and Flake8.
+This would be useful to check linting and do formatting of the package on the spot.
+Note that you need to install [the Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) to VS Code.
+
 ```jsonc
 {
     // auto formatting by Black
@@ -151,6 +155,9 @@ See `.travis.yml` for more details.
 
 ### Linting and formatting before commit
 
+If you want to make sure that the code follows Flake8 and Black before you commit, [pre-commit] and the following settings (to be written in `.pre-commit-config.yaml`) is useful.
+This will check linting and formatting of the code you stage before you commit and the commit will be passed only when Black and Flake8 finish with the status code 0.
+
 ```yaml
 repos:
   - repo: https://github.com/ambv/black
@@ -163,6 +170,8 @@ repos:
     hooks:
       - id: flake8
 ```
+
+Note that you need to run the following command before you use the feature.
 
 ```bash
 $ pre-commit install
