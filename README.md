@@ -23,7 +23,7 @@ With a simple `demo` Python package, the following essential (but laborious) pro
 
 ## Local Python environment
 
-This repository has Pipenv files (`Pipfile` and `Pipfile.lock`) which describe a specific Python version and dependent packages.
+This repository has [Pipenv] files (`Pipfile` and `Pipfile.lock`) which describe a specific Python version and dependent packages.
 After cloning the repository to local, you can initialize a Python environment as follows:
 
 ```bash
@@ -41,8 +41,8 @@ $ pipenv shell # enter a virtual environment
 
 ## Code linting by Flake8
 
-[Flake8] is a linter which checks that source codes follow the Python style guide.
-The following command checks all codes in the `demo` package:
+[Flake8] is a linter which checks that the source code follows the Python style guide.
+The following command checks all the code in the `demo` package:
 
 ```bash
 $ flake8 demo
@@ -51,8 +51,8 @@ $ # nothing is output if no errors
 
 ## Code formatting by Black
 
-[Black] is a formatter which (forcibly) reformats source codes according to [the Black code style](https://black.readthedocs.io/en/stable/the_black_code_style.html).
-The following command reformats all codes in the `demo` package **in place**:
+[Black] is a formatter which (forcibly) reformats the source code according to [the Black code style](https://black.readthedocs.io/en/stable/the_black_code_style.html).
+The following command reformats all the code in the `demo` package **in place**:
 
 ```bash
 $ black demo
@@ -92,7 +92,7 @@ $
 
 ## Code coverage by Codecov
 
-[Codecov] calculates the fraction of codes that are tested to the whole codes (often called code coverage), which is a useful indicator that the package is well-tested or not.
+[Codecov] calculates the fraction of the code that are tested to the whole code (often called code coverage), which is a useful indicator that the package is well-tested or not.
 The code coverage is calculated by pytest with `--cov` option:
 
 ```bash
