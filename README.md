@@ -146,7 +146,7 @@ Note that you need to install [the Python extension](https://marketplace.visuals
     "editor.formatOnType": true,
     "python.formatting.provider": "black",
     // auto linting by Flake8
-    "python.linting.enabled": false,
+    "python.linting.enabled": true,
     "python.linting.lintOnSave": true,
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
